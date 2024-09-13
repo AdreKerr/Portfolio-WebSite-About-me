@@ -1,0 +1,84 @@
+/* Style Sheet */
+/* Link All Pages */
+
+/* BIG */
+.big{
+    background-color: gainsboro;
+}
+
+
+/* TOP BORDER */
+.borderTop{
+    background-color: cadetblue;
+    text-align: center;
+}
+.borderTop :any-link{
+    color: white;
+    text-decoration: none;
+}
+.borderTop :any-link:hover{
+    color: blue;
+}
+.borderTop h1{
+    padding: 5px;
+    color: white;
+}
+
+/* BODY */
+.body{
+    background-color: gray;
+    border-radius: 10px;
+}
+.body input{
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+.body input:hover{
+    color: blue;
+}
+#AboutMePage{
+    margin-bottom: 50px;
+}
+
+/* about me page */
+.aboutWork{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.aboutWork li{
+    padding: 10px;
+}
+.aboutWork h4{
+    padding: 10px;
+}
+
+/* BOTTOM BORDER */
+.borderBottom{
+    background-color: cadetblue;
+}
+.borderBottom :any-link{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.borderBottom :any-link:hover{
+    color: blue;
+}
+
+
+
+
+/* space */
+.space{
+    height: 50px;
+}
+.space1{
+    height: 120px;
+}
+.space2{
+    height: 10px;
+}
