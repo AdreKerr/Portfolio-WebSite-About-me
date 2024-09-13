@@ -3,41 +3,44 @@
 
 /* BIG */
 .big{
-    background-color: gainsboro;
+    background-color: #ccc5b9;
 }
 
 
 /* TOP BORDER */
 .borderTop{
-    background-color: cadetblue;
+    background-color: #252422;
     text-align: center;
 }
 .borderTop :any-link{
-    color: white;
+    color: #fffcf2;
     text-decoration: none;
 }
 .borderTop :any-link:hover{
-    color: blue;
+    color: darkcyan;
 }
 .borderTop h1{
     padding: 5px;
-    color: white;
+    color: #fffcf2;
 }
 
 /* BODY */
 .body{
-    background-color: gray;
-    border-radius: 10px;
+    background-color: darkcyan;
+    color: #fffcf2;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
 }
 .body input{
-    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+    box-shadow: 10px 10px 10px #403d39;
     padding: 20px;
-    background-color: gray;
-    color: white;
-    border-radius: 10px;
+    background-color: #252422;
+    color: #fffcf2;
+    border-radius: 40px;
 }
 .body input:hover{
-    color: blue;
+    color: darkcyan;
 }
 #AboutMePage{
     margin-bottom: 50px;
@@ -45,9 +48,10 @@
 
 /* about me page */
 .aboutWork{
-    background-color: black;
-    color: white;
-    padding: 10px;
+    background-color: darkcyan;
+    color: #fffcf2;
+    padding: 20px;
+    border-radius: 40px;
 }
 .aboutWork li{
     padding: 10px;
@@ -58,18 +62,34 @@
 
 /* BOTTOM BORDER */
 .borderBottom{
-    background-color: cadetblue;
+    background-color: #252422;
 }
 .borderBottom :any-link{
-    color: white;
+    color: #fffcf2;
     text-align: center;
     text-decoration: none;
 }
 .borderBottom :any-link:hover{
-    color: blue;
+    color: darkcyan;
 }
 
-
+/* main in project page */
+.one{
+    background-color: darkcyan;
+    border-radius: 40px;
+}
+.two{
+    background-color:#252422;
+    border-radius: 40px;
+}
+.three{
+    background-color: darkcyan;
+    border-radius: 40px;
+}
+.main{
+    text-align: center;
+    color: white;
+}
 
 
 /* space */
