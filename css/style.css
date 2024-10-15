@@ -17,7 +17,7 @@
     text-decoration: none;
 }
 .borderTop :any-link:hover{
-    color: darkcyan;
+    color: cadetblue;
 }
 .borderTop h1{
     padding: 5px;
@@ -26,7 +26,7 @@
 
 /* BODY */
 .body{
-    background-color: darkcyan;
+    background-color: cadetblue;
     color: #fffcf2;
     border-radius: 40px;
     padding: 10px;
@@ -40,25 +40,107 @@
     border-radius: 40px;
 }
 .body input:hover{
-    color: darkcyan;
+    color: cadetblue;
 }
 #AboutMePage{
     margin-bottom: 50px;
 }
-
-/* about me page */
-.aboutWork{
-    background-color: darkcyan;
+.Me{
+    background-color: cadetblue;
     color: #fffcf2;
     padding: 20px;
     border-radius: 40px;
 }
+.name{
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Me h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.Me img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+@media(min-width: 900px){
+   .Me img{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+   }
+}
+@media(min-width: 1100px){
+    .Me img{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+.b2{
+    padding: 50px;
+}
+
+/* about me page */
+.aboutWork{
+    background-color: cadetblue;
+    color: #fffcf2;
+    padding: 20px;
+    border-radius: 40px;
+    padding: 40px;
+}
 .aboutWork li{
     padding: 10px;
 }
-.aboutWork h4{
-    padding: 10px;
+.aboutWork h2{
+    padding-bottom: 10px;
+    text-align: center;
 }
+
+
+/* project page */
+.main h2{
+    padding: 20px;
+}
+.main li{
+    list-style-type: none;
+}
+.main h5{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.d{ 
+    border-top: 2px solid black;
+    width: 150px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+#box1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    height: 220px;
+}
+#box2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 220px;
+}
+#box3{
+    border-right: 2px solid black;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+
 
 /* BOTTOM BORDER */
 .borderBottom{
@@ -70,12 +152,12 @@
     text-decoration: none;
 }
 .borderBottom :any-link:hover{
-    color: darkcyan;
+    color: cadetblue;
 }
 
 /* main in project page */
 .one{
-    background-color: darkcyan;
+    background-color: cadetblue;
     border-radius: 40px;
 }
 .two{
@@ -83,7 +165,7 @@
     border-radius: 40px;
 }
 .three{
-    background-color: darkcyan;
+    background-color: cadetblue;
     border-radius: 40px;
 }
 .main{
@@ -102,3 +184,92 @@
 .space2{
     height: 10px;
 }
+
+
+
+/* home page */
+.b3{
+    padding: 120px;
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.body :any-link{
+    padding: 20px
+}
+.body span{
+    padding: 20px;
+}
+.body{
+    padding: 50px;
+}
+#Btn{
+	position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+}
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  }
+  .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+      
+      to left,
+      hsl(0, 0%, 61%) 0%,
+      hsl(0 0% 50%) 8%,
+      hsl(0, 0%, 50%) 92%,
+      hsl(0, 0%, 61%) 100%
+    );
+  }
+  .front {
+    display: block;
+    position: relative;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    color: white;
+    background: hsl(182, 25%, 50%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  }
+  #Btn:hover {
+    filter: brightness(110%);
+  }
+  #Btn:hover .front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  }
+  #Btn:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+  #Btn:hover .shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+  }
+  #Btn:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+  }
+  #Btn:focus:not(:focus-visible) {
+    outline: none;
+  }
