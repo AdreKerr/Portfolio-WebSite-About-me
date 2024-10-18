@@ -127,18 +127,20 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
-    height: 220px;
 }
 #box2{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    height: 220px;
 }
 #box3{
     border-right: 2px solid black;
-    height: 220px;
     margin-bottom: 20px;
 }
+#box4{
+    margin-bottom: 20px;
+}
+
+/* media for when it gets to small to only have bottom on 1,2,3 none on four */
 
 
 
